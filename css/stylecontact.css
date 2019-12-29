@@ -1,0 +1,316 @@
+/** GLOBAL **/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+@font-face{
+	font-family:"Medium";
+	src:url("../fonts/Quicksand-Medium.ttf")
+}
+
+@font-face{
+	font-family:"Roboto";
+	src:url("../fonts/Roboto-Regular.ttf")
+}
+
+@font-face{
+	font-family:"Proxima";
+	src:url("../fonts/Mark Simonson - Proxima Nova Alt Bold.otf")
+}
+
+body{
+	margin:0;
+	font-family:Medium;
+	font-size:18px;
+	color:black;
+	line-height: 1.8em;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+/** GLOBAL **/
+/** HEADER1 **/
+
+header{
+	background-image: url("../images/Contact.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+#texts {
+	width: 100%;
+	text-align: center;
+	margin-top: 120px;
+	color: white;
+}
+
+#texts h1{
+	font-family: Proxima;
+	letter-spacing: 0.1rem;
+	font-size: 120px;
+	line-height: 80px;
+}
+
+header .container{
+	width:92%;
+	margin:auto;
+}
+
+header a{
+	font-family: Roboto;
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 23px;
+}
+
+header a:hover{
+	color:#cd6f00;
+}
+
+header nav{
+	position: relative;
+	bottom: 160px;
+	text-align: right;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+header ul{
+	padding:0;
+	margin:0;
+}
+
+header li{
+	display: inline;
+	padding:0px 0px;
+	margin:0 28px;
+}
+
+header .logo{
+	position: relative;
+	bottom: 25px;
+}
+
+header .logo img{
+	width: 200px;
+}
+/** HEADER1 **/
+/** SECTION **/
+
+#section .container1{
+	width:90%;
+	margin:auto;
+}
+
+#section .container1 h4{
+	font-family:Medium;
+	font-size:45px;
+	text-align:center;
+	margin-top:50px;
+	line-height: 1.3em;
+	letter-spacing: 0.1em;
+}
+
+#section .box p{
+	font-family: Medium;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 10px;
+	
+}
+
+#section .box a{
+	text-decoration: none;
+	color:#000;
+}
+
+#section .boxes{
+	margin-top:100px;
+}
+
+.boxes .box img{
+        width: 150px;
+        }
+
+.boxes .box{
+	float:left;
+	text-align:center;
+	width:18%;
+	margin:12px;
+	box-sizing: border-box;
+}
+
+/** SECTION **/
+/** SECTION2 **/
+
+#section2 .container2 .social-logo{
+	margin-top:400px;
+}
+
+.container2{
+	width:90%;
+	margin:auto;
+}
+
+.social-logo{
+	text-align: center;
+}
+
+.social-logo .logo{
+	float:none;
+	display:inline;
+	margin: 0px 5px;
+}
+
+.social-logo .logo img{
+    width:30px;
+}
+
+/** SECTION2 **/
+/** FOOTER **/
+
+#footer .container3{
+	margin-bottom: 10px;
+}
+
+footer p{
+	text-align: center;
+	font-family:Medium;
+	font-size: 15px;
+}
+
+/** FOOTER **/
+/** SLIDEMENU **/
+
+.side-nav{
+	height: 100%;
+	width: 0px;
+	position:absolute;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:#111;
+	opacity:0.9;
+	overflow-x:hidden;
+	padding-top:60px;
+	transition:0.5s;
+
+}
+
+.side-nav a{
+	padding:10px 10px 10px 30px;
+	text-decoration:none;
+	font-family: Medium;
+	font-size:19px;
+	color:#ccc;
+	display:block;
+	transition:0.3s;
+}
+
+.side-nav .btn-close{
+	position: absolute;
+	top:0px;
+	right:22px;
+	font-size:28px;
+	margin-left: 50px;
+}
+
+.open-slide{
+	position: absolute;
+	top: 40px;
+	left:20px;
+}
+
+/** SLIDEMENU **/
+/** RESPONSIVE **/
+
+@media(max-width: 1350px){
+	header nav li{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+
+	.boxes .box{
+		float:none;
+		text-align:center;
+		width:100%;
+		margin-top: 50px;
+	}
+
+	header .logo{
+		float:none;
+		text-align:center;
+		width:100%;
+		position: relative;
+		bottom: 30px;
+	}
+
+	header .logo img{
+		width: 180px;
+	}
+
+	header nav{
+		float:none;
+		text-align: center;
+		/**width: 100%;**/
+		margin-top:0px;
+	}
+
+	header .side-nav a{
+	font-family: Medium;
+	font-size: 16px;
+	}
+
+	header li{
+		margin:0 5px;
+	}
+
+	#texts h1{
+		font-family: Proxima;
+		letter-spacing: 0.1rem;
+		font-size: 90px;
+		line-height: 80px;
+	}
+
+	#texts {
+		width: 100%;
+		text-align: center;
+		margin-top: 160px;
+		color: white;
+	}
+
+	footer p{
+		font-size:12px;
+	}
+
+	.container{
+		width:98%;
+		margin:auto;
+	}
+
+	.container nav{
+		display:none;
+	}
+
+	#section .container1 .boxes{
+		margin-right: 25px;
+	}
+
+	#section2 .container2 .social-logo{
+	margin-top:70px;
+}
+
+	#footer .container3{
+		margin-bottom: 10px;
+	}
+}
+
+@media(min-width: 1350px){
+	.open-slide{
+		display:none;
+	}
+}
