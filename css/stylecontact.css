@@ -20,9 +20,19 @@
 	src:url("../fonts/Mark Simonson - Proxima Nova Alt Bold.otf")
 }
 
+@font-face{
+	font-family:"Apple Display";
+	src:url("../fonts/SF-Pro-Display-Semibold.otf")
+}
+
+@font-face{
+	font-family:"Apple Text";
+	src:url("../fonts/SF-Pro-Text-Regular.otf")
+}
+
 body{
 	margin:0;
-	font-family:Medium;
+	font-family:Apple Text;
 	font-size:18px;
 	color:black;
 	line-height: 1.8em;
@@ -48,7 +58,7 @@ header{
 }
 
 #texts h1{
-	font-family: Proxima;
+	font-family: Apple Display;
 	letter-spacing: 0.1rem;
 	font-size: 120px;
 	line-height: 80px;
@@ -60,7 +70,7 @@ header .container{
 }
 
 header a{
-	font-family: Roboto;
+	font-family: Apple Text;
 	color:#ffffff;
 	text-decoration: none;
 	font-size: 23px;
@@ -106,7 +116,7 @@ header .logo img{
 }
 
 #section .container1 h4{
-	font-family:Medium;
+	font-family:Apple Text;
 	font-size:45px;
 	text-align:center;
 	margin-top:50px;
@@ -115,7 +125,7 @@ header .logo img{
 }
 
 #section .box p{
-	font-family: Medium;
+	font-family: Apple Text;
 	font-size: 20px;
 	line-height: 30px;
 	margin-top: 10px;
@@ -178,7 +188,7 @@ header .logo img{
 
 footer p{
 	text-align: center;
-	font-family:Medium;
+	font-family:Apple Text;
 	font-size: 15px;
 }
 
@@ -261,7 +271,7 @@ footer p{
 	}
 
 	header .side-nav a{
-	font-family: Medium;
+	font-family: Apple Text;
 	font-size: 16px;
 	}
 
@@ -270,7 +280,7 @@ footer p{
 	}
 
 	#texts h1{
-		font-family: Proxima;
+		font-family: Apple Display;
 		letter-spacing: 0.1rem;
 		font-size: 90px;
 		line-height: 80px;
