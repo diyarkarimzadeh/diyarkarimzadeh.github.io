@@ -182,15 +182,26 @@ header .logo img{
 /** SECTION2 **/
 /** FOOTER **/
 
-footer{
-	width: 100%;
-	margin-bottom: 10px;
+.container3{
+	width: 90%;
+	margin: auto;
 }
 
-footer p{
+.social-logo{
 	text-align: center;
-	font-family:Apple Text;
-	font-size: 15px;
+	margin-top: 18%;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+.social-logo .logo{
+	float:none;
+	display:inline;
+	margin: 0px 5px;
+}
+
+.social-logo .logo img{
+	width:30px;
 }
 
 /** FOOTER **/
