@@ -184,28 +184,11 @@ header .logo img{
 
 .container3{
 	width: 90%;
-	margin: auto;
+	margin-top: 10%;
 }
 
 .container3 p{
 	margin-top: 20px;
-}
-
-.social-logo{
-	text-align: center;
-	margin-top: 18%;
-	margin-bottom: 0px;
-	padding: 0px;
-}
-
-.social-logo .logo{
-	float:none;
-	display:inline;
-	margin: 0px 5px;
-}
-
-.social-logo .logo img{
-	width:30px;
 }
 
 /** FOOTER **/
