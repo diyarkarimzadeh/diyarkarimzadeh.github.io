@@ -183,6 +183,7 @@ header .logo img{
 /** FOOTER **/
 
 #footer .container3{
+	width: 100%;
 	margin-bottom: 10px;
 }
 
