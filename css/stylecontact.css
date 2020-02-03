@@ -184,6 +184,10 @@ header .logo img{
 
 .container3{
 	width: 90%;
+	margin: auto;
+}
+
+.container3 p{
 	margin-top: 20px;
 }
 
