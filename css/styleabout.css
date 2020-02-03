@@ -52,7 +52,7 @@ header{
 #texts {
 	width: 100%;
 	text-align: center;
-	margin-top: 40%;
+	margin-top: 40px;
 	color: white;
 }
 
@@ -290,6 +290,10 @@ footer p{
 
 	header li{
 		margin:0 5px;
+	}
+	
+	#texts {
+		margin-top:40%;
 	}
 
 	#texts h1{
