@@ -183,19 +183,12 @@ header .logo img{
 /** SECTION2 **/
 /** FOOTER **/
 footer{
-	margin: 20px;
-}
-
-.container3{
 	width: 90%;
-	height: auto;
-	margin: auto;
 }
-
-.container3 p{
-	margin-top: 20px;
+footer p{
+	test-align: center;
+	margin:10px;
 }
-
 /** FOOTER **/
 /** SLIDEMENU **/
 
