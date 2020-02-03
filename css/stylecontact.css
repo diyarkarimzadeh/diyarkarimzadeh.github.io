@@ -181,10 +181,13 @@ header .logo img{
 
 /** SECTION2 **/
 /** FOOTER **/
+footer{
+	margin: 20px;
+}
 
 .container3{
 	width: 90%;
-	margin-top: 10%;
+	margin: auto;
 }
 
 .container3 p{
